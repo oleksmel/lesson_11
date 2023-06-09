@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    background-color: chartreuse;
+    animation: cube;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    /*animation: cube 6s linear 2s infinite alternate-reverse;*/
+    position: relative;
+}
+
+@keyframes cube {
+    0%{ 
+        background-color: chartreuse;
+        left: 200px;
+        top: 20px;
+    }
+    25%{
+        background-color: blue;
+        left: 400px;
+        top: 40px;
+        border-radius: 20px;
+    }
+    50%{
+        background-color: aqua;
+        left: 200px;
+        top: 80px;
+        border-radius: 80px;
+    }
+    75% {
+        background-color: black;
+        left: 100px;
+        top: 10px;
+        border-radius: 15px;
+    }
+    100%{
+        background-color: red;
+        left: 0;
+        top: 0;
+        border-radius: 100px;
+    }
+}
+
+.wheel {
+    backgrou
+}
