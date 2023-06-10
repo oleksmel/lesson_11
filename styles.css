@@ -55,6 +55,7 @@
     background: url(image/8015_0.jpg) 0 0 no-repeat;
     width: 150px;
     height: 150px;
+    border-radius: 50%;
     background-size: contain;
     animation-name: wheel;
     animation: wheel 0.00001s linear infinite;
@@ -115,8 +116,45 @@
 /******************EARTH*****************/
 
 .wrapper {
-    background: url(image/AdobeStock_194080021.webp) 0 0 no-repeat;
+    background: url(image/cosmos_png.png) 0 0 no-repeat;
     background-size: cover;
-    width: 600px;
-    height: 200pz;
+    position: relative;
+}
+
+.earth {
+    position: relative;
+    padding: 100px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.moon {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0%{
+
+    }
+    25%{
+
+    }
+    50%{
+
+    }
+    75%{
+
+    }
+    100%{
+
+    }
 }
